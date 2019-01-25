@@ -15,3 +15,8 @@ link to a running instance: http://featuretooglealeksandar.pythonanywhere.com/
 <b>amount of experience</b>: I have 1 years experience with Django/Python
 
 <b>trade-offs</b>: I have done same trade with UI and design which could have been more elegant and better looking.
+
+<a href="https://github.com/radonic12/Master-of-Puppets/blob/master/polls/views.py">This is the link to the file contatining all my backend communication</a>
+
+
+
