@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    </style>
+    <script>
+
+            function rdrctWorkOn() {
+                var scrtKy = document.getElementById("scrtKeyId").value;
+                    window.location.href = "/workon?scrtKy="+scrtKy;
+                }
+        </script>
+    </head>
+    <body>
+        <br>
+        <div style="width:90%;" align="center">
+            <form action="login" method="POST">
+                 {% csrf_token %}
+                 <input type="text" name="usr" placeholder="email" />
+                 <input type="password" name="pswrd" placeholder="password" />
+                 <input type="submit" name="smbt" value="log in / sign up" />
+            </form>
+        <h1>Feature Toogle </h1>
+
+
+        <a href="/unqcrt"><button>Create new project</button></a>
+
+        <br><br><input type='text' name='scrtky' placeholder='Your secret key here..' id="scrtKeyId">
+        <button onclick="rdrctWorkOn()">Work on existing project</button>
+        </div>
+
+
+
+    </body>
+</html>
